@@ -77,6 +77,26 @@
     </div>
 
     <div id="content" class="container">
+        <div class="row text-center m-4">
+        <div class="col-lg-4">
+            <i class="fas fa-bicycle fa-6x"></i>
+            <h2>Bengkel Sepeda</h2>
+            <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <i class="fas fa-motorcycle fa-6x"></i>
+            <h2>Bengkel Motor</h2>
+            <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <i class="fas fa-car-side fa-6x"></i>
+            <h2>Bengkel Mobil</h2>
+            <p>And lastly this, the third column of representative placeholder content.</p>
+            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
         <div class="row">
             <div id="list" class="col-4"></div>
             <div id="map" class="col"></div>
@@ -119,11 +139,33 @@
         <hr class="featurette-divider">
     </div>
 
-
-    <footer class="container">
+    <footer class="bg-light">
+    <div class="container text-left text-md-left mt-5">
+        <div class="row">
+        <div id="aboutus" class="col-md-3 mx-auto m-4">
+            <h6 class="text-uppercase font-weight-bold">About Us</h6>
+            <hr class="bg-light mb-4 mt-0 d-inline-block mx-auto" style="width:125px; height: 2px;">
+            <p class="mt-2">
+            Bengkel Online : Aplikasi sistem informasi geografis pemetaan lokasi bengkel di daerah kota Malang.
+            </p>
+        </div>
+        <div class="col-md-3 mx-auto m-4">
+            <h6 class="text-uppercase font-weight-bold">Created By :</h6>
+            <hr class="bg-light mb-4 mt-0 d-inline-block mx-auto" style="width:125px; height: 2px;">
+            <ul class="list-unstyled">
+            <li class="my-2">Muhammad Ibrohim Aqimuddin</li>
+            <li class="my-2">Chandra Gunawan</li>
+            <li class="my-2">Rama</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <div class="footer-copyright text-center py-3">
         <p class="float-end"><a href="#">Back to top</a></p>
         <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </div>
     </footer>
+    
     
 
     <!-- Login Modal -->
