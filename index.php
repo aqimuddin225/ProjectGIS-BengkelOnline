@@ -27,9 +27,12 @@
     <style>
         #header{
             position: relative;
-            height: 400px;
+            background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.9), rgba(0,0,0,1)),
+                        url('img/header.jpg') no-repeat center;
+            background-size: cover;
+            background-attachment: fixed;
             width: 100%;
-            background-color: powderblue;
+            height: 500px;
         }
         #search{
             position: absolute;
@@ -51,7 +54,7 @@
     <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
     
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand"><i class="fas fa-cogs"></i>  Bengkel Online</a>
             <form class="d-flex">
@@ -79,38 +82,40 @@
             <div id="map" class="col"></div>
         </div>
         <hr class="featurette-divider">
-        <div class="d-flex justify-content-between">
-            <div ><h3>Tabel Data Bengkel</h3></div>
-            <div ><button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#add"><i class="fas fa-plus-circle"></i></button></div>
-        </div>
-        <div class="row">
-            <table class="table table-borderless">
-                <tr>
-                    <th>Firstname</th>
-                    <th>Lastname</th>
-                    <th>Age</th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <td>Jill</td>
-                    <td>Smith</td>
-                    <td>50</td>
-                    <th>
-                        <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-backspace"></i></button>
-                        <button type="button" class="btn btn-warning btn-sm"><i class="fas fa-pencil-alt"></i></button>
-                    </th>
-                </tr>
-                <tr>
-                    <td>Eve</td>
-                    <td>Jackson</td>
-                    <td>94</td>
-                    <th>
-                        <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-backspace"></i></button>
-                        <button type="button" class="btn btn-warning btn-sm"><i class="fas fa-pencil-alt"></i></button>
-                    </th>
-                </tr>
-            </table>
-        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div ><h3>Tabel Data Bengkel</h3></div>
+                    <div ><button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#add"><i class="fas fa-plus-circle"></i></button></div>
+                </div>
+            </div>
+                <table class="table table-borderless">
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Age</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>Jill</td>
+                        <td>Smith</td>
+                        <td>50</td>
+                        <th>
+                            <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-backspace"></i></button>
+                            <button type="button" class="btn btn-warning btn-sm"><i class="fas fa-pencil-alt"></i></button>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>Eve</td>
+                        <td>Jackson</td>
+                        <td>94</td>
+                        <th>
+                            <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-backspace"></i></button>
+                            <button type="button" class="btn btn-warning btn-sm"><i class="fas fa-pencil-alt"></i></button>
+                        </th>
+                    </tr>
+                </table>
+            </div>
         <hr class="featurette-divider">
     </div>
 
